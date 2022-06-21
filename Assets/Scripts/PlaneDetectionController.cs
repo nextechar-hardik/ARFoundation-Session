@@ -41,7 +41,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
         {
 
             _arSession.Reset();
-
+            cameraObject.transform.position = Vector3.zero;
 
 
             Debug.Log(cameraObject.transform.position + "    " + cameraObject.transform.rotation);
